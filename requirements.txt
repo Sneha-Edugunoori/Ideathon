@@ -1,0 +1,21 @@
+#for installation of requirements.txt us ethe below query---
+#pip install -r requirements.txt
+
+Flask
+pandas
+psycopg2
+ffmpeg-python
+speechrecognition
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+
+
+# Flask → Web framework to handle routes and requests.
+# pandas → Used to read and process CSV files.
+# psycopg2 → Connects to the PostgreSQL database.
+# ffmpeg-python → Handles audio extraction from video files.
+# speechrecognition → Converts audio to text.
+# scikit-learn → Provides TfidfVectorizer for text analysis.
+# fuzzywuzzy → Performs fuzzy string matching.
+# python-Levenshtein → Optimizes fuzzy string matching for better performance.
