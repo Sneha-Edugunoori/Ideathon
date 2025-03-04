@@ -1,17 +1,23 @@
 # Ideathon
 
-📌 Ticket Creation System
-The Ticket Creation System is a Flask-based application that allows users to upload complaint videos. The system processes the audio, converts it to text, categorizes the complaint using Natural Language Processing (NLP), and generates a ticket that is stored in a PostgreSQL database.
+# Ideathon  
 
+## 📌 Ticket Creation System  
 
-📁 Project Structure
+The **Ticket Creation System** is a Flask-based application that allows users to upload complaint videos. The system processes the audio, converts it to text, categorizes the complaint using **Natural Language Processing (NLP)**, and generates a ticket that is stored in a **PostgreSQL database**.  
+
+---
+
+## 📁 Project Structure  
+
+```bash
 ticket_creation/
-│-- app.py                     # Main Flask application
-│-- banking_dataset.csv         # Dataset for categorizing complaints
-│-- requirements.txt            # Required dependencies
+│-- app.py                 # Main Flask application
+│-- banking_dataset.csv     # Dataset for categorizing complaints
+│-- requirements.txt        # Required dependencies
 │-- templates/
-│   ├── index.html              # Web interface for uploading videos
-│-- README.md                   # Project documentation
+│   ├── index.html         # Web interface for uploading videos
+│-- README.md              # Project documentation
 
 🚀 Features
 ✔ Upload complaint videos
